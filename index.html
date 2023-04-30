@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calc</title>
+  <style>
+  	body{
+	background: #e6e4ed;
+}
+.conteiner1{
+ border: 4px solid #000000;
+ width:330px;
+ height:450px;
+ background-image:linear-gradient(to right bottom, #49c92a, #b5f6a6);
+	background-repeat:no-repeat;
+	border-radius:20px;
+	margin-left:15px;
+	margin-top:45px;
+}
+.mais{
+	margin-left:20px;
+	background: #31462b;
+}
+.menos{
+	background: #31462b;
+}
+.result{
+	border-radius:20px;
+	border: 3px solid #000000;
+	height: 200px;
+	width: 265px;
+	position: relative;
+	top:15px;
+	left:31px;
+	background:#2b3f26;
+}
+p{
+	text-align: center;
+	margin-top:35%;
+	font-weight: bold;
+	color:#ffffff;
+}
+input{
+	font-size:15px;
+	font-weight: bold;
+	padding:10px;
+	position: relative;
+	top:35px;
+	text-align: center;
+	border-radius:25%;
+	color:#ffffff;
+	border:3px solid #000000;
+	background:#66985a;
+	font-weight: bold;
+}
+table{
+	margin-left:20px;
+}
+input:hover{
+	background: #49c92a;
+	border:3px solid #ffffff;
+}
+  </style>
+</head>
+<body>
+	<div class="conteiner1">
+			<table cellspacing="10">
+					<input class="result" type="button" name="resultado">
+				<tr>
+					<td>
+			<input type="button" value=" 7 " name="sete">
+			</td>
+			<td>
+					<input type="button" name="oito" value=" 8 ">
+					</td>
+					<td>
+						<input type="button" name="nove" value=" 9 ">
+					</td>
+					<td>
+						<input class="mais" type="button" name="menos" value=" + ">
+					</td>
+					<td>
+						<input class="menos" type="button" name="mais" value=" – ">
+					</td>
+					<tr>
+						<td>
+							<input type="button" name="quatro" value=" 4 ">
+						</td>
+						<td>
+							<input type="button" name="cinco" value=" 5 ">
+						</td>
+						<td>
+							<input type="button" name="seis" value=" 6 ">
+						</td>
+						<td>
+							<input class="mais" type="button" name="vezes" value=" × ">
+						</td>
+						<td>
+							<input class="menos" type="button" name="div" value=" ÷ ">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="button" name="um" value=" 1 ">
+						</td>
+						<td>
+							<input type="button" name="dois" value=" 2 ">
+						</td>
+						<td>
+								<input type="button" name="3" value=" 3 ">
+						</td>
+						<td>
+							<input class="mais" type="button" name="igual" value=" = ">
+						</td>
+						<td>
+							<input class="menos" type="button" name="virgula" value=" ,  ">
+						</td>
+					</tr>
+			</tr>
+			</table>
+	</div>
+	</div>
+</body>
+</html>
